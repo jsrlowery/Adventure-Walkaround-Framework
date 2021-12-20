@@ -1,3 +1,7 @@
+This is a framework or maybe 'test project' I made in Godot for my adventure-style webcomic Betwixt. I threw it together in a month and a half and it looks pretty good so I'm leaving it up under CC 4.0 ShareAlike so that anyone can use it as a jumping-off point for making an HTML5 project in Godot to embed in their own works.
+
+As noted below, this got here through the Godot GitHub Integration Tool, so I figure it's only right to leave it there.
+
 <p align="right">
 <a href="https://discord.gg/KnJGY9S">
   <img src="https://github.com/fenix-hub/ColoredBadges/blob/master/svg/social/discord.svg" alt="react" style="vertical-align:top; margin:6px 4px">
