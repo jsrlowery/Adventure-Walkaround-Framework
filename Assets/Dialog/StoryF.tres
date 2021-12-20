@@ -1,0 +1,158 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"StoryF\"
+var lines = [ 
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...poor... boy...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...poor... abandoned... son...\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: It's either strong but doesn't know where you are so it's playing mind games to lure you out...\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Or it's weak and needs you to let your guard down. Just keep looking.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Assume the latter. Get the jump on it, if you can.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Incongruent thoughts coruscate through your mind.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"anger\"]],
+		\"Text\": \"Magma-like [shake]anger[/shake] at mimed mock-pity.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[shake]Foreignly[/shake] logical responses combatting your immediate rage.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"A rage that cuts [i]deep[/i].\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"depression\"]],
+		\"Text\": \"[i]Abandoned[/i]. It's a word that resonates to your core.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You [slow]know[/slow] you're being [shake]toyed[/shake] with.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"That doesn't make it [i]hurt[/i] any less.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"anger\"]],
+		\"Text\": \"Your pulse is [shake]rising[/shake]. Your face is growing [i]balmy[/i]. You're becoming... light-headed.\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...come to me...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...I know you...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...I know you want to let go of that... [slow]burden...[/slow]\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...no more worring about your father...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...no more sleepless nights without your mother...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...just come to me...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Those final words were like a beacon. You face [slow]northward.[/slow] There. There they are.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"depression\"]],
+		\"Text\": \"Maybe it's right.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Your temper melds with the offered chance.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The emotions mutate into a gobule of confusion.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Maybe you should go.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Maybe it would be--\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: You're going to claim back your home.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Anim\": [[\"EffectPlayer\", \"warmGlow\"]],
+		\"Text\": \"> Leo: Remember, this is your space.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Remember, you're the hero in this story.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"neutral\"]],
+		\"Text\": \"Your emotions churn again.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You don't know what to do.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"One thing is for certain.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The path forward is northward.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The prevailing quietus of the creaking house fills the gaps in consciousness.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You'll go when you're ready.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

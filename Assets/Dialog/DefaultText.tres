@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"default\"
+var lines = [ 
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"If you're here, [fast]then this text[/fast] did not automagically or manually get edited.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"Depending on who you are, this may suck, be all acording to keikaku, or just be a 'huh' moment.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"Assuming you're not ReedRGale, please send a message to him. He'd love to know how to recreate this situation so it can be fixed.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"Or don't. I'm not the boss of you.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

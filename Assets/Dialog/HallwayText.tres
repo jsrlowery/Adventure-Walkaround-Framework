@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Hallway\"
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"This hallway is[slow]...[/slow] not supposed to be this long.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You can see the path widening ahead.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The distortion is unnerving.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

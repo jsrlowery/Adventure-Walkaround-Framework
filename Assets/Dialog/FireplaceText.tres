@@ -1,0 +1,42 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Fireplace\"
+var hint = \"Red bricks.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Your fireplace is nestled within the wall's roots.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You can't quite find the rocking chair where you used to sit on your mother's lap.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You can't quite pull up the memories of your mom and dad reading you fairy tales in the fading, evening light.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You can't quite remember feeling safe and warm with a friendly fire to keep you cozy through winter.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Memories of memories.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You almost wish you could burn away these branch-like vines, but even if you could, you're not completely sure you want to burn down the house in the process.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

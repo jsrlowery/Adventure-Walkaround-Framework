@@ -1,0 +1,36 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"StoryA\"
+var lines = [ 
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...finally left your room, [slow]dreamer?...[/slow]\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You don't respond. You wouldn't know what to say.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You grip your weapon tighter.\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...I know you're there. I can [slow]smell[/slow] you...\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Don't say anything. If it knew where you were, it'd've attacked by now.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

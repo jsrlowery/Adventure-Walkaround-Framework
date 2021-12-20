@@ -1,0 +1,29 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Couch\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Dad's throne[slow]. [/slow]After work, he's usually sitting atop it, watching cable.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You usually wish your house wasn't equipped with neolithic technology, [slow]but[/slow] you do appreciate that this keeps him predictable.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"It is also, admittedly, very comfy.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You choose not to kick it.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

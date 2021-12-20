@@ -1,0 +1,93 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Book\"
+var hint = \"The many worlds.\"
+var onetime = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"A book? And not one you recognize.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Weird. You know [i]all[/i] the books your small household owns.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[wave]All[/wave] of them.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Even in this darkness, you can tell this isn't something normal.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"It feels like it wants to speak to you.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"That it wants you to read it.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You 'feel-out' more than 'see' its dark lettering:  Myriad Worlds.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Open it, I guess. Just don't let your guard down.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"OnStart\": [[\"FloorProps\", \"removeTiles\", [[\"Book\"]]]],
+		\"Text\": \"You crack it open, but can barely make out the concise, hand-written lettering. You still try, though, flipping from page to page.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"\\\"--what the denizens call Memoria and Aether--\\\"\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"\\\"--many narratively connected worlds compose the Twixt--\\\"\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"\\\"--between the worlds comes at a cost--\\\"\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"\\\"--Lost Souls, stuck in an endless dream--\\\"\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"SFX\": \"Howl\",
+		\"Anim\": [[\"AnimationPlayer\", \"jump\"], [\"EffectPlayer\", \"flicker\"]],
+		\"Text\": \"[fast]!!![/fast]\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Shit! What was that?\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You look around, but can't seem to place the source of the sound.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"It just seems to have reverberated throughout the house.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The book you were holding also seems to be gone.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

@@ -1,0 +1,54 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Birdhouse\"
+var hint = \"Made by father and son.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[slow]...[/slow]You and your dad made this together.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You'd remarked how you loved the bluebirds and he'd offhandedly asked if you wanted to make a birdhouse together.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Being seven, you readily agreed.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Though[slow]...[/slow] most of your contribution was in passing your dad the stuff as he worked.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"That said, the paintjob is all you.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Said paints have faded a bit, with time.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You never did find time to hang it up.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You kept looking for a time to do it together, but it never came.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[slow]...[/slow]you make a mental note to put this back on the shelf.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Provided your house isn't just stuck as a forest forever or something.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

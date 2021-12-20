@@ -1,0 +1,70 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"StoryC\"
+var lines = [ 
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...your scent reveals everything to me. And once I slay you, your everything will become mine...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...I can smell... your family... it's your whole world...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...but would they even notice you were gone?...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"anger\"]],
+		\"Text\": \"Your brow furrows and before you know it, you're shouting into the darkness:\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[shake]O-of course![/shake]\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...hrhrhr... of course they would... of course...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...your mom though... smells far away...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...not dead... not home...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...hasn't been home in a long time...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"That's n-not her f-fault!\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...hrhrhr... of course... of course...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...what do I know?...\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: It's just trying to rile you up. Keep looking for it.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"neutral\"]],
+		\"Text\": \"...\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

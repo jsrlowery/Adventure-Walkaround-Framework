@@ -1,0 +1,62 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"StoryE\"
+var lines = [ 
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...do you want to know more...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You prepare yourself for another psychological blow.\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Anim\": [[\"EffectPlayer\", \"anger\"]],
+		\"Text\": \"...your father... such a tense smell...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...like walking on eggshells...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...staggering, angry footsteps clattering empty cans over rotting, creaky floorboards...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...and you, huddling somewhere far away...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You grit your teeth. Where is it? Where is that voice coming from?\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...one day, something will snap, won't it?...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...or... [slow]someone?[/slow]... [wave]maybe?[/wave]...\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Remember, it's just trying to make you angry. Make you do something stupid.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: Don't give it that chance.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"neutral\"]],
+		\"Text\": \"...\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

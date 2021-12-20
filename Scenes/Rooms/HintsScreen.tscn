@@ -1,0 +1,69 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Assets/fontstuck-extended.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Scripts/HintsScreen.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/BackButton.gd" type="Script" id=3]
+[ext_resource path="res://Assets/Play_Pressed.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Play.png" type="Texture" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+extra_spacing_top = -2
+font_data = ExtResource( 1 )
+
+[node name="HintsScreen" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="ScreenSize" type="Control" parent="."]
+margin_right = 650.0
+margin_bottom = 450.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="ScreenSize"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hints" type="RichTextLabel" parent="ScreenSize/ColorRect"]
+modulate = Color( 0.854902, 0.168627, 0.866667, 1 )
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -285.0
+margin_top = 33.0
+margin_right = 286.0
+margin_bottom = 377.0
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Here's some hints to help you find what you missed...[/center]
+{hints}"
+text = "Here's some hints to help you find what you missed...
+{hints}"
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackButton" type="TextureButton" parent="ScreenSize"]
+modulate = Color( 0.854902, 0.168627, 0.866667, 1 )
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 44.4975
+margin_top = -13.124
+margin_right = 144.497
+margin_bottom = 86.876
+rect_rotation = 180.0
+rect_scale = Vector2( 0.4, 0.4 )
+shortcut_in_tooltip = false
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 4 )
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="ScreenSize/BackButton" to="ScreenSize/BackButton" method="_on_TextureButton_pressed"]

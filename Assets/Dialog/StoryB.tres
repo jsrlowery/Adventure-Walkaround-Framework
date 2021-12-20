@@ -1,0 +1,36 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"StoryB\"
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The voice has left you alone for some time now.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...this isn't your home. Some articles are left, but it's as the RA said.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"This is almost the domain of the Hunter, now.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You don't know what that means. Does it mean you have to slay the Hunter?\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...you will if that's what has to happen.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You have no choice.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

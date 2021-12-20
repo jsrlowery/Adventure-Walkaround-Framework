@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"BRDoor\"
+var hint = \"Secondary hiding spot.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The door to the bathroom.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"A decent secondary hiding place, but currently blocked off.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You try not to think about who or what's the root of that.\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"heh, 'root.'\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

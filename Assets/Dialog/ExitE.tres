@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"ExitE\"
+var choice = [[\"No\", \"/return\", \"boolean\", false], [\"Yes\", \"/return\", \"boolean\", true]]
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The walls have begun to mutate ahead, turning into a narrow cravasse. You could probably squeeze through though. Will you?\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

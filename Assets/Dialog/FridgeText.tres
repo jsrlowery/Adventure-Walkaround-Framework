@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Fridge\"
+var hint = \"White door, cold hum.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Dad's minifridge. Inside are any number of intoxifiers one might imbibe after a long day at work.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"If it were still plugged in, you'd unplug it out of spite.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"This strikes you as more than a little petty, given the circumstances.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"But you'd still do it.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/floor_sound.ogg-0bacb41f35b0989f25c6a933ea844d04.oggstr"
+
+[deps]
+
+source_file="res://Assets/floor_sound.ogg"
+dest_files=[ "res://.import/floor_sound.ogg-0bacb41f35b0989f25c6a933ea844d04.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

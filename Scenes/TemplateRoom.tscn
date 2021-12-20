@@ -1,0 +1,45 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/LeoHome.tres" type="TileSet" id=2]
+[ext_resource path="res://Scripts/Props.gd" type="Script" id=3]
+
+[node name="HallwayRoom" type="Node2D"]
+
+[node name="SortedMap" type="YSort" parent="."]
+
+[node name="Floor" type="TileMap" parent="SortedMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+format = 1
+
+[node name="FloorDecor" type="TileMap" parent="SortedMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+format = 1
+
+[node name="FloorProps" type="TileMap" parent="SortedMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_y_sort = true
+show_collision = true
+format = 1
+script = ExtResource( 3 )
+
+[node name="Wall" type="TileMap" parent="SortedMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_y_sort = true
+format = 1
+
+[node name="WallProps" type="TileMap" parent="SortedMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_y_sort = true
+format = 1
+script = ExtResource( 3 )
+
+[node name="WallDecor" type="TileMap" parent="SortedMap"]
+tile_set = ExtResource( 2 )
+cell_size = Vector2( 16, 16 )
+cell_y_sort = true
+format = 1

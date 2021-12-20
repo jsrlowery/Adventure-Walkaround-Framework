@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"ExitB\"
+var choice = [[\"No\", \"/return\", \"boolean\", false], [\"Yes\", \"/return\", \"boolean\", true]]
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"An overgrowth of branches blocks your way. You can probably push through it, though. Will you proceed?\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

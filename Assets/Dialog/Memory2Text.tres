@@ -1,0 +1,55 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Mote2\"
+var hint = \"A warm memory of safety.\"
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"This mote conveys a sootheing warmth. [slow]It calls you...[/slow]\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: [b]Careful.[/b] You don't know what that is.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"warmGlow\"]],
+		\"Text\": \"You back away from the siren song. Still, you're left with some residual, half-familiar thoughts...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...shhhh. Shhhh, I'm here for you.\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...it was just a little spider, it can't hurt you anymore.\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...I've got you...\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...you don't need to worry about a thing...\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"neutral\"]],
+		\"Text\": \"The calming voice inevitably fades, just as dawn goes down to day.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

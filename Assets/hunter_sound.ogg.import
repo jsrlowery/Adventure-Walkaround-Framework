@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/hunter_sound.ogg-f412c673ddfad2393b637bac5cfb610b.oggstr"
+
+[deps]
+
+source_file="res://Assets/hunter_sound.ogg"
+dest_files=[ "res://.import/hunter_sound.ogg-f412c673ddfad2393b637bac5cfb610b.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

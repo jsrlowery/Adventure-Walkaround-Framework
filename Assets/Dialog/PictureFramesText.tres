@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"PictureFrames\"
+var hint = \"Array of paintings.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Most of the paintings are obscured, but this is your dad's family tree.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"He always has a story about your aunts or uncles or grandpa or grandma.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You used to try to care, but you live so far away from them it's hard to really put names to faces.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Especially when these people are far older now than even in these pictures.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

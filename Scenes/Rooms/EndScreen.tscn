@@ -1,0 +1,108 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Assets/fontstuck-extended.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Assets/Replay.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Replay_Pressed.png" type="Texture" id=3]
+[ext_resource path="res://Assets/credits.png" type="Texture" id=4]
+[ext_resource path="res://Assets/credits_pressed.png" type="Texture" id=5]
+[ext_resource path="res://Assets/hints.png" type="Texture" id=6]
+[ext_resource path="res://Assets/hints_pressed.png" type="Texture" id=7]
+[ext_resource path="res://Scripts/ReplayButton.gd" type="Script" id=8]
+[ext_resource path="res://Scripts/EndScreen.gd" type="Script" id=9]
+[ext_resource path="res://Scripts/HintsButton.gd" type="Script" id=10]
+[ext_resource path="res://Scripts/CreditsButton.gd" type="Script" id=11]
+
+[sub_resource type="DynamicFont" id=1]
+size = 45
+font_data = ExtResource( 1 )
+
+[node name="EndScreen" type="Node2D"]
+script = ExtResource( 9 )
+
+[node name="ScreenSize" type="Control" parent="."]
+margin_right = 650.0
+margin_bottom = 450.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="ScreenSize"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InteractiblesFound" type="RichTextLabel" parent="ScreenSize/ColorRect"]
+modulate = Color( 0.854902, 0.168627, 0.866667, 1 )
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -221.5
+margin_top = 73.6815
+margin_right = 221.5
+margin_bottom = 198.681
+custom_fonts/normal_font = SubResource( 1 )
+bbcode_enabled = true
+bbcode_text = "[center]Interactibles Found!
+[tornado radius=4 freq=2.5]{found}[/tornado] / {total} [/center]"
+text = "Interactibles Found!
+{found} / {total} "
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ReplayButton" type="TextureButton" parent="ScreenSize"]
+modulate = Color( 0.854902, 0.168627, 0.866667, 1 )
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 22.2449
+margin_top = -120.0
+margin_right = 122.245
+margin_bottom = -19.9999
+shortcut_in_tooltip = false
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 3 )
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreditsButton" type="TextureButton" parent="ScreenSize"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 151.07
+margin_top = -57.0101
+margin_right = 401.07
+margin_bottom = -12.0101
+rect_scale = Vector2( 0.6, 0.6 )
+texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 5 )
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HintsButton" type="TextureButton" parent="ScreenSize"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = 187.664
+margin_top = -106.01
+margin_right = 377.664
+margin_bottom = -61.0101
+rect_scale = Vector2( 0.6, 0.6 )
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 7 )
+script = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="ScreenSize/ReplayButton" to="ScreenSize/ReplayButton" method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="ScreenSize/CreditsButton" to="ScreenSize/CreditsButton" method="_onPressed"]
+[connection signal="pressed" from="ScreenSize/HintsButton" to="ScreenSize/HintsButton" method="_onPressed"]

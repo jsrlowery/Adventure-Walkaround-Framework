@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Ladder2\"
+var hint = \"Leo's trusty drawbridge, part 2.\"
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"No. Out of sight, out of mind.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You have to defend your safe space.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

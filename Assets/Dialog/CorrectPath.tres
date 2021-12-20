@@ -1,0 +1,17 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"CorrectPath\"
+var choice = [[\"No\", \"/return\", \"boolean\", false], [\"Yes\", \"/return\", \"boolean\", true]]
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[slow]This...[/slow] is where you heard the sound coming from. Are you ready to end this?\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

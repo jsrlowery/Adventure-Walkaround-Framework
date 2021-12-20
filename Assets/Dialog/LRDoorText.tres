@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"LRDoor\"
+var hint = \"Door to room to be avoided.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"The door to the living room.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You try to avoid there even on a good day.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

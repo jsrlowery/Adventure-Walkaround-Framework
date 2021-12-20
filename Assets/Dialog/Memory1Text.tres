@@ -1,0 +1,59 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Mote1\"
+var hint = \"A cold memory of disappointment.\"
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"This mote conveys a chilling ache through your body. [slow]It calls you...[/slow]\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: [b]Stop.[/b] Walk away slowly.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You shake it off. Alien thoughts linger on...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Anim\": [[\"EffectPlayer\", \"depression\"]],
+		\"Text\": \"...\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"Remember, hold the gun steady...\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...And keep both eyes open, that one-eye-open thing is Hollywood crap...\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...And adjust your grip... shoot like that, and the kickback'll fuck you up...\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...tsk... It got away...\\\"\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"A sigh.\"
+	},
+	{
+		\"Name\": \"Hunter\",
+		\"Text\": \"\\\"...You really are [wave]hopeless...[/wave] maybe another day...\\\"\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Anim\": [[\"EffectPlayer\", \"neutral\"]],
+		\"Text\": \"The odd thoughts drift away like vapor.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

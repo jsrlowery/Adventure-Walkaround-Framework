@@ -1,0 +1,29 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Ladder1\"
+var hint = \"Leo's trusty drawbridge.\"
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Your trusty drawbridge. You're tempted to--\"
+	},
+	{
+		\"Name\": \"Trina\",
+		\"Text\": \"> Leo: No, you have to do this. It's only getting worse up there.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...That's right. You're here because you have to face this.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...you have to face this.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

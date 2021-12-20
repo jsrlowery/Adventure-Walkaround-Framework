@@ -1,0 +1,30 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"Safe\"
+var hint = \"Kept locked up without a key.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"This is your dad's safe. You've seen him on more than one occasion ranting at the box or toying with its numbers. \"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"He always seems to change his mind and set it back on its shelf.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You don't know what's inside it.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You don't know if you care enough to find out, either.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )

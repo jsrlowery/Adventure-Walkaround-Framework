@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/leo_sound.ogg-61c556aa612e2894b4ab7568b5d195ff.oggstr"
+
+[deps]
+
+source_file="res://Assets/leo_sound.ogg"
+dest_files=[ "res://.import/leo_sound.ogg-61c556aa612e2894b4ab7568b5d195ff.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

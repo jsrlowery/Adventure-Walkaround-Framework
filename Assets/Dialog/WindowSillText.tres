@@ -1,0 +1,42 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[sub_resource type="GDScript" id=1]
+script/source = "extends Resource
+
+var name = \"WindowSill\"
+var hint = \"The last portal outside seen.\"
+var loop = true
+var lines = [ 
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"Odd purple light filters through.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"It's unsettling, but also the only clear light source.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You are loathe to leave it behind.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"You make a note to yourself to store a flashlight or some candles in your supplies next time...\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"[slow]...[/slow]\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"...probably the candles.\"
+	},
+	{
+		\"Name\": \"Leo\",
+		\"Text\": \"There's only [i]one[/i] flashlight in the house and dad would notice if it were gone.\"
+	},
+]
+"
+
+[resource]
+script = SubResource( 1 )
