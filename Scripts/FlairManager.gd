@@ -20,4 +20,5 @@ func afterPlayerSituated():
 # Adds a nice little note for anyone that tries to walk back to the hallway room.
 func cantGoBack():
 	yield(get_node("../TransitionPlayer"), "animation_finished")
+	pm.tickHintBingoBox("CantGoBack")
 	Globals.getStoryManager().instanceDialogBox("CantGoBack")
